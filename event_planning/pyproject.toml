@@ -1,0 +1,20 @@
+[project]
+name = "event_planning"
+version = "0.1.0"
+description = "event_planning using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.100.1,<1.0.0",
+]
+
+[project.scripts]
+kickoff = "event_planning.main:kickoff"
+plot = "event_planning.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"
