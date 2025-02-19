@@ -1,0 +1,17 @@
+[project]
+name = "customer-queries"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zainabbasi38", email = "zainabbasi7534@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+customer-queries = "customer_queries:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
