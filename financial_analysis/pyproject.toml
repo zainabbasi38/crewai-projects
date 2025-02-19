@@ -1,7 +1,7 @@
 [project]
-name = "event_planning"
+name = "financial_analysis"
 version = "0.1.0"
-description = "event_planning using crewAI"
+description = "financial_analysis using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
@@ -9,8 +9,8 @@ dependencies = [
 ]
 
 [project.scripts]
-kickoff = "event_planning.main:kickoff"
-plot = "event_planning.main:plot"
+kickoff = "financial_analysis.main:kickoff"
+plot = "financial_analysis.main:plot"
 
 [build-system]
 requires = ["hatchling"]
