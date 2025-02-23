@@ -1,0 +1,15 @@
+research_task:
+  description: "Conduct thorough research on the latest trends and developments in the given topic {topic}."
+  agent: "research_specialist"
+
+writer_task:
+  description: "Write a comprehensive report on the latest trends and developments in the given topic {topic}."
+  agent: "content_writer"
+
+market_analysis_task:
+  description: "Analyze market trends and opportunities based on the content {output}."
+  agent: "market_analysis_agent"
+
+social_media_analysis_task:
+  description: "Analyze social media trends and develop strategies for content promotion based on {output}."
+  agent: "social_media_analysis_agent" 

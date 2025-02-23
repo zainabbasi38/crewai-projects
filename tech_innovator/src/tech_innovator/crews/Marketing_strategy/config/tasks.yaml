@@ -1,0 +1,14 @@
+market_analysis_task:
+  description: >
+    Analyze the market trends and develop a marketing strategy the previous crew is provided : {output}.
+  expected_output: >
+    A comprehensive report on the latest trends and developments in the field of marketing.
+  agent: market_analysis_agent
+
+social_media_analysis_task:
+  description: >
+    Analyze the social media trends and develop a marketing strategy that the previous crew is provided : {output}.
+  expected_output: >
+    A comprehensive report on the latest trends and developments in the field of social media.
+  agent: social_media_analysis_agent
+

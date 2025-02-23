@@ -1,0 +1,14 @@
+research_task:
+  description: >
+    Conduct thorough research on the latest trends and developments in the given topic {topic}.
+  expected_output: >
+    A comprehensive report on the latest trends and developments in the given topic.
+  agent: research_specialist
+
+writer_task:
+  description: >
+    Write a comprehensive report on the latest trends and developments in the given topic {topic}.
+  expected_output: >
+    A comprehensive report on the latest trends and developments in the given topic.
+  agent: content_writer
+
